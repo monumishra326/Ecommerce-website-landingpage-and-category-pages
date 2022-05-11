@@ -1,0 +1,27 @@
+.box1 {
+    display: flex;
+    margin: 10px  ;
+    width: 80vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: start;
+  }
+  
+  .productCard1 {
+    width: 16vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 3vmax;
+    transition:0.3s;
+    align-items: start;
+    
+  }
+  .productCard1>img{
+      width: 200px;
+      height:200px;
+  }
+  
+  
