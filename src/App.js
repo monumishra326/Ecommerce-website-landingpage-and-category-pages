@@ -3,6 +3,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Cart } from './Components/Cart';
+import { Checkout } from './Components/Checkout';
 import { Home } from './Components/Home';
 import NavBar from './Components/Nav';
 import Product from './Components/Product';
@@ -26,6 +27,7 @@ function App() {
         <Route path='/signup' element={<Signup/>}/>
         
         <Route path='/signin' element={<Signin/>}/>
+        <Route path='cart/checkout' element={<Checkout/>}/>
 
       </Routes>
    

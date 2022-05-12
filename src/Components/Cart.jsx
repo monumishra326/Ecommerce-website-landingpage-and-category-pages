@@ -1,16 +1,28 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { deletecartsucess } from '../Redux/Cart/action';
+import './Cart.css'
+import { Link } from 'react-router-dom';
 
 export const Cart = () => {
   const data=useSelector((state)=>state.carts.carts);
 
-  const [price,setPrice]=useState(0);
-  const[count,setCount] = useState(1);
 
-  const handelcount = (value)=>{
+  const [price,setPrice]=useState(0);
+
+  const[count,setCount] = useState(1);
+  const dispatch=useDispatch()
+  useEffect(()=>{
+    let cart11=JSON.parse(localStorage.getItem("ekart"))||[];
+    // console.log(cart11);
+    dispatch(deletecartsucess(cart11));
+  },[])
+
+  const handelcount = (value,itemprice)=>{
+    let priceval=count+value;
    setCount(count+value);
-   setPrice(count*price);
+
+   setPrice(priceval*itemprice);
    
   //  console.log(count);
   }
@@ -19,15 +31,17 @@ export const Cart = () => {
   
 
   console.log(data.price);
-  const dispatch=useDispatch()
+ 
   const handledelete=(item)=>{
   let x = data.filter((el)=>{
     if(el.id !=item.id){
       return el;
     }
   })
+  localStorage.setItem("ekart",JSON.stringify(x));
   dispatch(deletecartsucess(x))
-  
+  let pricek=price-(count*item.price);
+  setPrice(pricek);
  
 
 
@@ -45,23 +59,30 @@ export const Cart = () => {
   },[])
   console.log(price)
   return (
-    <div>Cart
+    <div><h1>CartPage</h1>
+    
       {data.map((item)=>{
-        return<>
-         <p>{item.title}</p>
+        return<div className='cartdata'>
+         
          <img src={item.image}/>
+         <p>{item.title}</p>
          <p>Category:{item.category}</p>
+         <button onClick={()=>{handelcount(1,item.price)}} className="cart111"> + </button>
+         <p>{count}</p>
+       <button onClick={()=>{handelcount(-1,item.price)}}className="cart111">-</button>
          <p>₹{item.price}</p>
-         <button onClick={()=>{handledelete(item)}}>delete</button>
-         </>
+         <button onClick={()=>{handledelete(item)}}className="cart112">Delete</button>
+         </div>
       })}
 
-      <>
-       <button onClick={()=>{handelcount(1)}}> + </button>
-       <p>{count}</p>
-       <button onClick={()=>{handelcount(-1)}}>-</button>
+      <div className='checkout'>
+      
+       
       <h2>SubTotal:{price}</h2>
-      </>
+      <Link to={'checkout'}><button className='checkoutbtn'>CheckOut</button></Link>
+      
+      </div>
+     
     </div>
 
     

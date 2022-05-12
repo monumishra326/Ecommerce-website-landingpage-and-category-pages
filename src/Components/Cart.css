@@ -1,0 +1,61 @@
+.cartdata{
+    display: flex;
+    gap: 20px;
+    
+}
+.cartdata>img{
+    width: 200px;
+    height: 200px;
+}
+.cartdata>p{
+    text-align: center;
+}
+.cart111{
+  
+   display: flex;
+   border: 1px solid red;
+   width: 2em;
+   height: 30px;
+   margin-top: 15px;
+   justify-content: center;
+   align-items: center;
+   background-image: linear-gradient(rgb(20, 145, 26),rgb(116, 9, 62));
+   font-size: 20px;
+   text-align: center;
+   color: white;
+
+}
+.cart112{
+    isplay: flex;
+   border: 1px solid red;
+   width: 5em;
+   height: 30px;
+   margin-top: 15px;
+   justify-content: center;
+   align-items: center;
+   background-image: linear-gradient(rgb(20, 145, 26),rgb(116, 9, 62));
+   font-size: 20px;
+   text-align: center;
+   color: white;
+
+}
+.checkout{
+    display: flex;
+    border: 1px solid red;
+    width: 250px;
+    height: 250px;
+    margin-left:80%;
+    /* margin-top: -12%;     */
+    text-align: center;
+    gap: 10%;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(rgb(30, 16, 134),rgb(17, 129, 176));
+    box-shadow: rgb(36, 40, 149) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px;
+}
+.checkoutbtn{
+    border: rgb(17, 129, 176);
+    color: white;
+    padding: 15px;
+    background-image: linear-gradient(rgb(153, 0, 255),rgb(111, 145, 17));
+}
