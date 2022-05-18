@@ -4,7 +4,7 @@ import './Product.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchproduct } from '../Redux/Product/action';
 import { addcartsuceess } from '../Redux/Cart/action';
-import { v4 as uuidv4 } from 'uuid';
+
 
 
 
@@ -48,8 +48,15 @@ export default function Product() {
     }
    
     const handletocart=(item)=>{
+      let cart11=JSON.parse(localStorage.getItem("ekart"))||[];
+      cart11=[...cart11,item];
+      // console.log(cart11);
+      localStorage.setItem("ekart",JSON.stringify(cart11));
       dispatch(addcartsuceess(item))
+
     }
+
+
     
 
      

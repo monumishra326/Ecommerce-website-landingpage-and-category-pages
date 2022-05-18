@@ -2,8 +2,23 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import "./Nav.css";
+import { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "./AuthContext";
+
 
 function NavBar() {
+  const { handleToken } = useContext(AuthContext);
+
+  let token = JSON.parse(localStorage.getItem("user_token"));
+
+  let navigate = useNavigate();
+
+  const logout = () => {
+    localStorage.removeItem("user_token");
+    handleToken("");
+    navigate("/");
+  };
   const [click, setClick] = useState(false);
   const data=useSelector((state)=>state.carts.carts);
   const handleClick = () => setClick(!click);
@@ -51,7 +66,7 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
+              {/* <NavLink
                 exact
                 to="/signin"
                 activeClassName="active"
@@ -59,7 +74,16 @@ function NavBar() {
                 onClick={handleClick}
               >
                 Login
-              </NavLink>
+              </NavLink> */}
+               {token === null ? (
+        <Link className="link" to={"/signin"}>
+          Login
+        </Link>
+      ) : (
+        <button id="logoutBtn" onClick={logout}>
+          Logout
+        </button>
+      )}
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>

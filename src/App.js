@@ -7,9 +7,10 @@ import { Checkout } from './Components/Checkout';
 import { Home } from './Components/Home';
 import NavBar from './Components/Nav';
 import Product from './Components/Product';
-
-import { Signin } from './Components/Signin';
 import { Signup } from './Components/Signup';
+import { Signin } from './Components/Signin';
+
+
 
 
 
