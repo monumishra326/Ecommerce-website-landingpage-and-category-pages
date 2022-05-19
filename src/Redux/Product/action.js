@@ -13,9 +13,9 @@ export const addproduct=(payload)=>{
 export const fetchproduct=()=>(dispatch)=>{
 
    
-    axios.get("https://fakestoreapi.com/products").then((res)=>{
+    axios.get("https://quiet-oasis-01524.herokuapp.com/products").then((res)=>{
         // console.log(res.data);
-        dispatch(addproduct(res.data))
+        dispatch(addproduct(res.data.newproduct))
 
     
         

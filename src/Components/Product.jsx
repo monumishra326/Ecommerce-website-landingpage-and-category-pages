@@ -9,6 +9,7 @@ import { addcartsuceess } from '../Redux/Cart/action';
 
 
 
+
 export default function Product() {
    const [ndata, setNdata]=  useState([]);
    const [xdata,setXdata]= useState([]);
@@ -106,7 +107,9 @@ export default function Product() {
         )
         
       })}
+     
       </div>
+      
     </div>
 
 

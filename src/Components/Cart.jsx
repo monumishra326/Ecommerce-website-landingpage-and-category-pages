@@ -4,6 +4,7 @@ import { deletecartsucess } from '../Redux/Cart/action';
 import './Cart.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { addorder } from '../Redux/Order/action';
+import Footer from './Footer'
 
 export const Cart = () => {
   const data=useSelector((state)=>state.carts.carts);
@@ -81,7 +82,9 @@ export const Cart = () => {
        <button onClick={()=>{handelcount(-1,item.price)}}className="cart111">-</button>
          <p>₹{item.price}</p>
          <button onClick={()=>{handledelete(item)}}className="cart112">Delete</button>
+         
          </div>
+         
       })}
   
       <div className='checkout'>
@@ -91,9 +94,11 @@ export const Cart = () => {
       <button className='checkoutbtn' onClick={handlecheckout}>CheckOut</button>
       
       </div>
-     
+     <>
+     <Footer/>
+     </>
     </div>
-
+   
     
 
   )
