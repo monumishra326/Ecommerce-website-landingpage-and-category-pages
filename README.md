@@ -1,10 +1,10 @@
 
 
-Ecommerce Website-
+### Emart 
 It's a MERN Stack E-commerce web application with backend and fronted and functionalties.
 
 
-Tech Stack:
+### Tech Stack:
 <p align="center">
     <img src="https://img.shields.io/badge/React_(17.0.2)-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
     <img src="https://img.shields.io/badge/Redux_(4.1.1)-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="redux" />
@@ -17,21 +17,22 @@ Tech Stack:
 </p>
 
 
-🚀 Features
+### 🚀 Features:
 
-.Home Page
-.Product Page
-.Cart Page
-.Checkout Page
-.Payment Page
-.Login Page
-.Signup Page
+### .Home Page
+### .Product Page
+### .Product Page
+### .Cart Page
+### .Checkout Page
+### .Payment Page
+### .Login Page
+### .Signup Page
 
 
 ### Deployment Link  https://ecommerce-website-project.vercel.app/
 
 
-Some ScreenShots:
+### Some ScreenShots:
 
 
 Home Page-
