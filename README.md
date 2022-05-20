@@ -5,13 +5,17 @@ It's a MERN Stack E-commerce web application with backend and fronted and functi
 
 
 Tech Stack:
-https://camo.githubusercontent.com/fac2d51cbf60c68d1bac3adbffde0f75944c3e7f4822f9f84c16c295640a939e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163745f2831372e302e32292d3230323332413f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d363144414642
-https://camo.githubusercontent.com/10d6fade71d32133d91742d635453deb2355a5e67ebc6e8cc29b8cadcf8cf8a8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656475785f28342e312e31292d3539334438383f7374796c653d666f722d7468652d6261646765266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465
-https://camo.githubusercontent.com/01d423bc44db6da9b89ac54c3c159c4250f597c9193c95c4e7284db0ea07c047/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f526573745f4150492d3032333033413f7374796c653d666f722d7468652d6261646765266c6f676f3d72656163742d726f75746572266c6f676f436f6c6f723d7768697465
-https://camo.githubusercontent.com/3a0f693cfa032ea4404e8e02d485599bd0d192282b921026e89d271aaa3d7565/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465
-https://camo.githubusercontent.com/a1eae878fdd3d1c1b687992ca74e5cac85f4b68e60a6efaa7bc8dc9883b71229/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6f6465646f746a73266c6f676f436f6c6f723d7768697465
-https://camo.githubusercontent.com/7f73136d92799b19be179d1ed87b461120c35ed917c7d5ab59a7606209da7bd3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f457870726573732e6a732d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d65787072657373266c6f676f436f6c6f723d7768697465
-https://camo.githubusercontent.com/72e92f69f36703548704a9eeda2a9889c2756b5e08f01a9aec6e658c148d014e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d3445413934423f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465
+<p align="center">
+    <img src="https://img.shields.io/badge/React_(17.0.2)-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
+    <img src="https://img.shields.io/badge/Redux_(4.1.1)-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="redux" />
+    <img src="https://img.shields.io/badge/Chakra%20UI-3bc7bd?style=for-the-badge&logo=chakraui&logoColor=white" alt="chakra-ui"/>
+    <img src="https://img.shields.io/badge/Rest_API-02303A?style=for-the-badge&logo=react-router&logoColor=white" alt="restAPI"/>
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/>   
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="nodejs" />
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="expressjs"/>
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb"/>
+</p>
+
 
 🚀 Features
 
@@ -23,7 +27,8 @@ https://camo.githubusercontent.com/72e92f69f36703548704a9eeda2a9889c2756b5e08f01
 .Login Page
 .Signup Page
 
-{Deployment Link} https://ecommerce-website-project.vercel.app/
+
+### Deployment Link  https://ecommerce-website-project.vercel.app/
 
 
 Some ScreenShots:
@@ -66,11 +71,15 @@ Login Page-
 SignUp Page -
 ![Screenshot (108)](https://user-images.githubusercontent.com/96140349/169488199-e0124eb0-8c3a-4ff4-bf0b-97499a98d4bf.png)
 
-Tools used on this project
-Visual Studio Code
-create-react-app template
-MongoDB compass
+### Tools used on this project
 
+- Visual Studio Code
+- create-react-app template
+- MongoDB compass
+
+
+## Install
+git clone 
 
 
 
