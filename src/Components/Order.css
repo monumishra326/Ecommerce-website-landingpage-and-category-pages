@@ -1,0 +1,10 @@
+.paymentbtn{
+    padding: 10px 50px;
+    margin: 70px;
+    border-radius: 50px;
+
+}
+.paymentbtn:hover{
+    color: white;
+    background-color: black;
+}

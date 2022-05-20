@@ -1,17 +1,33 @@
-.Checkoutcontainer{
- display: flex;
- width: 100vw;
- height: 100vh;
- 
 
-}
 .shipcontainer{
-    width: 30%;
-    padding-left: 50px;
+    display: flex;
+    border: 1px solid none;
+    width: 35%;
+    height: 500px;
+    justify-content: center;
+    margin-top: 6%;
+    flex-direction: row-reverse;
+    background-image:url("https://images.pexels.com/photos/5632361/pexels-photo-5632361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    margin: 20px 70px;
+    border-radius: 100px;
 
 }
+
 .ordercontainer{
-    width: 70%;
+    display: flex;
+    width: 40%;
+    height: 500px;
+    border: 1px solid none;
+    margin-top: -34%;
+    margin-left: 800px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+  background-image:url("https://images.pexels.com/photos/5632361/pexels-photo-5632361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  border-radius: 100px;
 
-
+}
+.inp{
+    padding: 10px 50px;
+    margin: 10px;
 }

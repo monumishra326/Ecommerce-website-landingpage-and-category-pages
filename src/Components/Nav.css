@@ -50,8 +50,13 @@
   .nav-item {
     line-height: 40px;
     margin-right: 1rem;
+    text-decoration: none;
+    color:white;
   }
-  
+  .link{
+    text-decoration: none;
+    color: #fff;
+  }
   .nav-item:after {
     content: "";
     display: block;

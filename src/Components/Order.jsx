@@ -1,11 +1,16 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-
+import { useNavigate } from 'react-router-dom'
+import './Order.css'
 export const Order = () => {
+  const navigate=useNavigate();
+  const paymenthandle=()=>{
+    navigate("/payment")
+}
     const order=useSelector((state)=>state.order.order);
     console.log(order);
   return (
-    <div>Order
+    <div>
          {order.data.map((item)=>{
         return<div className='cartdata'>
          
@@ -19,7 +24,7 @@ export const Order = () => {
          </div>
       })}
      <>
-     <bold>Sub Total:{order.price}</bold>
+     <button onClick={paymenthandle} className="paymentbtn"><p>Pay:{order.price}</p></button>
      </>
     </div>
   )

@@ -9,6 +9,7 @@ import NavBar from './Components/Nav';
 import Product from './Components/Product';
 import { Signup } from './Components/Signup';
 import { Signin } from './Components/Signin';
+import { Payment } from './Components/Payment';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         
         <Route path='/signin' element={<Signin/>}/>
         <Route path='/checkout' element={<Checkout/>}/>
+        <Route path='/payment' element={<Payment/>}/>
 
       </Routes>
    
