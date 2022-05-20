@@ -3,6 +3,7 @@ import "./Signin.css";
 import { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "./AuthContext";
+import Footer from './Footer';
 
 export const Signin = () => {
   const [form, setForm] = useState([]);
@@ -54,6 +55,7 @@ export const Signin = () => {
   };
 
   return (
+    <>
     <div id="loginDiv">
       <h1>Login</h1>
       <input
@@ -78,6 +80,9 @@ export const Signin = () => {
           Register
         </Link>
       </p>
+      
     </div>
+    <Footer/>
+    </>
   );
 };

@@ -2,6 +2,7 @@
 import "./Signup.css";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import Footer from './Footer';
 
 export const Signup = () => {
   const [form, setForm] = useState([]);
@@ -33,6 +34,7 @@ export const Signup = () => {
   };
 
   return (
+    <>
     <div id="regDiv">
       <h1>Register</h1>
       <input
@@ -82,5 +84,7 @@ export const Signup = () => {
         </Link>
       </p>
     </div>
+    <Footer/>
+    </>
   );
 };
