@@ -1,70 +1,86 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Ecommerce Website-
+It's a MERN Stack E-commerce web application with backend and fronted and functionalties.
 
-In the project directory, you can run:
 
-### `npm start`
+Tech Stack:
+https://camo.githubusercontent.com/fac2d51cbf60c68d1bac3adbffde0f75944c3e7f4822f9f84c16c295640a939e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163745f2831372e302e32292d3230323332413f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d363144414642
+https://camo.githubusercontent.com/10d6fade71d32133d91742d635453deb2355a5e67ebc6e8cc29b8cadcf8cf8a8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656475785f28342e312e31292d3539334438383f7374796c653d666f722d7468652d6261646765266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465
+https://camo.githubusercontent.com/01d423bc44db6da9b89ac54c3c159c4250f597c9193c95c4e7284db0ea07c047/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f526573745f4150492d3032333033413f7374796c653d666f722d7468652d6261646765266c6f676f3d72656163742d726f75746572266c6f676f436f6c6f723d7768697465
+https://camo.githubusercontent.com/3a0f693cfa032ea4404e8e02d485599bd0d192282b921026e89d271aaa3d7565/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465
+https://camo.githubusercontent.com/a1eae878fdd3d1c1b687992ca74e5cac85f4b68e60a6efaa7bc8dc9883b71229/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6f6465646f746a73266c6f676f436f6c6f723d7768697465
+https://camo.githubusercontent.com/7f73136d92799b19be179d1ed87b461120c35ed917c7d5ab59a7606209da7bd3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f457870726573732e6a732d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d65787072657373266c6f676f436f6c6f723d7768697465
+https://camo.githubusercontent.com/72e92f69f36703548704a9eeda2a9889c2756b5e08f01a9aec6e658c148d014e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d3445413934423f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+.Home Page
+.Product Page
+.Cart Page
+.Checkout Page
+.Payment Page
+.Login Page
+.Signup Page
 
-### `npm test`
+{Deployment Link} https://ecommerce-website-project.vercel.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Some ScreenShots:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Home Page-
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot (100)](https://user-images.githubusercontent.com/96140349/169487351-b8f29982-1e17-49be-a7f4-421005f26550.png)
+![Screenshot (101)](https://user-images.githubusercontent.com/96140349/169487517-cf80bbf8-43da-49d7-b841-2381ca0f908c.png)
+![Screenshot (102)](https://user-images.githubusercontent.com/96140349/169487575-dc9e533a-b7a6-4877-ac4b-2527574fb543.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Product Page-
+![Screenshot (103)](https://user-images.githubusercontent.com/96140349/169487646-0517277f-cd23-4ba7-96aa-d4130ee33653.png)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Cart Page-
+![Screenshot (104)](https://user-images.githubusercontent.com/96140349/169487719-0afe10bc-13ec-4020-a33f-48eb0dd0c685.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Checkout Page-
 
-### Analyzing the Bundle Size
+![Screenshot (105)](https://user-images.githubusercontent.com/96140349/169487784-5fe4a150-15f1-49cc-bce1-38f081610229.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Payment Page-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot (106)](https://user-images.githubusercontent.com/96140349/169487990-2b18eb40-0a6d-4412-bb28-3110963e6167.png)
 
-### Advanced Configuration
+Login Page-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+![Screenshot (107)](https://user-images.githubusercontent.com/96140349/169488107-666fddd2-f685-4080-a05d-0c1c7c63b82d.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+SignUp Page -
+![Screenshot (108)](https://user-images.githubusercontent.com/96140349/169488199-e0124eb0-8c3a-4ff4-bf0b-97499a98d4bf.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tools used on this project
+Visual Studio Code
+create-react-app template
+MongoDB compass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
