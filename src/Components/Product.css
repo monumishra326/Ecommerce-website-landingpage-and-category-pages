@@ -37,7 +37,7 @@
     flex-wrap: wrap;
     width: 80%;
     height:85vh;
-/*     overflow-y: scroll; */
+    overflow: scroll;
 }
 .fillbtn{
     border:none;
